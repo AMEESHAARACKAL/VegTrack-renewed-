@@ -1,21 +1,22 @@
 # Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
-
+# Remove patterns excluding hidden files
+# *.class
+# *.log
+# *.pyc
+# *.swp
+# .DS_Store
+# .atom/
+# .buildlog/
+# .history
+# .svn/
+# migrate_working_dir/
 
 # IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
+# Remove patterns excluding IntelliJ related files
+# *.iml
+# *.ipr
+# *.iws
+# .idea/
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -23,22 +24,27 @@ migrate_working_dir/
 #.vscode/
 
 # Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
+# Remove patterns excluding Flutter/Dart/Pub related files
+# **/doc/api/
+# **/ios/Flutter/.last_build_id
+# .dart_tool/
+# .flutter-plugins
+# .flutter-plugins-dependencies
+# .pub-cache/
+# .pub/
+# /build/
 
 # Symbolication related
-app.*.symbols
+# Remove patterns excluding symbolication related files
+# app.*.symbols
 
 # Obfuscation related
-app.*.map.json
+# Remove patterns excluding obfuscation related files
+# app.*.map.json
 
 # Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Remove patterns excluding Android Studio related files
+# /android/app/debug
+# /android/app/profile
+# /android/app/release
+
