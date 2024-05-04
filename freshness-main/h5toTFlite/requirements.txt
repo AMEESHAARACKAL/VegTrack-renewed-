@@ -1,0 +1,15 @@
+
+h5py==3.11.0
+keras==2.15
+libclang==18.1.1
+numpy==1.26.4
+tensorboard==2.15
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-io-gcs-filesystem==0.36.0
+termcolor==2.4.0
+typing_extensions==4.11.0
+urllib3==2.2.1
+Werkzeug==3.0.2
+wrapt==1.11.0
+zipp==3.18.1
